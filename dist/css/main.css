@@ -15,3 +15,6 @@ body {
 .selection_title {
   text-align: center;
   font-weight: bold; }
+
+select:hover {
+  outline-color: #43d73c; }

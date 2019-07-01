@@ -32,6 +32,11 @@ body {
     font-weight: bold;
 }
 
+select:hover {
+    outline-color: $primary-color;
+}
+
+
 // select:hover {
 //     background-color: $primary-color;
 // }
