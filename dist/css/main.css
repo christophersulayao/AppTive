@@ -1,2 +1,17 @@
 body {
-  background: #444; }
+  background-color: white; }
+
+.title {
+  color: #43d73c;
+  text-align: center;
+  font-weight: bold; }
+
+.selection {
+  width: 50%;
+  padding: 1%;
+  margin-left: 25%;
+  font-size: 1.5rem; }
+
+.selection_title {
+  text-align: center;
+  font-weight: bold; }

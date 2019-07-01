@@ -1,5 +1,37 @@
-$primary-color: #444;
+$primary-color: #43d73c;
 
 body {
-    background: $primary-color;
+    background-color: white;
 }
+
+// .search_bar {
+//     width: 100%;
+//   padding: 12px 20px;
+//   margin: 8px 0;
+//   display: inline-block;
+//   border: 1px solid $primary-color;
+//   border-radius: 4px;
+//   box-sizing: border-box;
+// }
+
+.title {
+    color: $primary-color;
+    text-align: center;
+    font-weight: bold;
+}
+
+.selection {
+    width: 50%;
+    padding: 1%;
+    margin-left: 25%;
+    font-size: 1.5rem;    
+}
+
+.selection_title {
+    text-align: center;
+    font-weight: bold;
+}
+
+// select:hover {
+//     background-color: $primary-color;
+// }
