@@ -18,3 +18,16 @@ body {
 
 select:hover {
   outline-color: #43d73c; }
+
+#chemical > h1 {
+  text-align: center; }
+
+#chemical > img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.chemical_info > div {
+  text-align: center;
+  margin-top: 1rem; }
