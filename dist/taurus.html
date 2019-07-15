@@ -1,21 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
-    <title>AppTive </title>
+    <title>jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    
+    <style>
+    body {
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f4f4f4;
+        line-height: 1.5em;
+    }
+
+    header {
+        background-image: url('images/background2.png');
+        color: #43d73c;
+        padding: 20px;
+        text-align: center;
+        border: 4px #000 solid;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        width: 50%;
+        height: 50%;
+        margin: 5% 20%;
+    }
+
+    img {
+        width: 50%;
+        height: 50%;
+        margin: 2% 20%;
+    }
+
+    p {
+        width: 50%;
+        height: 50%;
+        margin: 1% 20%; 
+    }
+
+    ul {
+        width: 50%;
+        height: 50%;
+        margin: 5% 20%; 
+    }
+
+    #container {
+        width: 50%;
+        margin: auto;
+        padding: 10%;
+    }
+    </style>
 </head>
 <body>
-<div id="chemical">
-    <h1 class="chemical_title">Taurus CS</h1>
-    <img src="../images/taurus.jpg" alt="CyKick">
-    <div class="chemical_info">
-        <div class="active_ingredient"><span>Fipronil</span></div>
-        <div class="pesticide_info"><span></span></div>
-        <div class="target_pests"><span>Ants</span></div>     
-    </div>
-</div>    
+
+<header>
+    <h1>AppTive</h1>
+</header>    
+
+<div id="container">
+
+<h1 id="heading1">Taurus SC</h1> 
+<img src="../images/taurus.jpg" alt="">
+<p id="para1"> <span>Taurus SC</span> lwith 9.1% Fipronil (the same amount of a.i. as 
+    the popular Termidor SC) provides best-in-class control of termites, ants and a 
+    wide variety of other insect pests including spiders, roaches, ticks and many more. 
+    The active ingredient is <span>Fipronil.</span> <br> <br>
+    <span>Fipronil </span> works by disrupting the normal function of the central nervous 
+    system in insects. Fipronil is more toxic to insects than people and pets because it 
+    is more likely to bind to insect nerve endings.
+    
+    <ul class="bugs"><span> Target Pests:  </span>   
+        <li>Ants (acrobat, argentine, big-headed, carpenter, pavement, pharaoh, thief)</li>
+        <li>Cockroaches (australian, oriental, smoky brown) </li>
+        <li>Crickets</li>
+        <li>Earwigs</li>
+        <li>Fleas</li>
+        <li>Flies</li>
+        <li>Mosquitos</li>
+        <li>Silverfish</li>
+        <li>Spiders (black widow, brown recluse, cellar, hobo)</li>
+        <li>Springtails</li>
+        <li>Ticks (brown, dog)</li>
+    </ul>
+</p>
+
+
+
+</div>
+
+<script>
+ $('span').css('color', 'red');
+
+  
+</script>
+
 </body>
 </html>
