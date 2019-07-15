@@ -1,21 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
-    <title>AppTive </title>
+    <title>jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    
+    <style>
+    body {
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f4f4f4;
+        line-height: 1.5em;
+    }
+
+    header {
+        background-image: url('images/background2.png');
+        color: #43d73c;
+        padding: 20px;
+        text-align: center;
+        border: 4px #000 solid;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        width: 50%;
+        height: 50%;
+        margin: 5% 20%;
+    }
+
+    img {
+        width: 50%;
+        height: 50%;
+        margin: 2% 20%;
+    }
+
+    p {
+        width: 50%;
+        height: 50%;
+        margin: 1% 20%; 
+    }
+
+    ul {
+        width: 50%;
+        height: 50%;
+        margin: 5% 20%; 
+    }
+
+    #container {
+        width: 50%;
+        margin: auto;
+        padding: 10%;
+    }
+    </style>
 </head>
 <body>
-<div id="chemical">
-    <h1 class="chemical_title">Defense SC</h1>
-    <img src="../images/dfense.jpg" alt="Defense">
-    <div class="chemical_info">
-        <div class="active_ingredient"><span>Fipronil</span></div>
-        <div class="pesticide_info"><span></span></div>
-        <div class="target_pests"><span>Ants</span></div>     
-    </div>
-</div>    
+
+<header>
+    <h1>AppTive</h1>
+</header>    
+
+<div id="container">
+
+<h1 id="heading1">Defense SC</h1> 
+<img src="../images/dfense.jpg" alt="">
+<p id="para1"> <span>Defense SC</span>  
+    D-fense SC is a powerful suspended concentrate (SC) deltamethrin that 
+    provides excellent control of a wide variety of insect pests including 
+    bed bugs, ants, fleas, flies, silverfish, spiders and cockroaches. It 
+    can be utilized for crack and crevice and spot applications in homes,
+    hotels, schools, businesses and more. It is odorless and safe around kids 
+    and pets when used as directed. Provides a 2-3 month residual for 
+    long-term insect control. The active ingredient is <span>Deltamethrin.</span>
+    <br>
+    <br>
+    <span>Deltamethrin</span> kills insects by direct contact or if they eat it.
+     It disrupts their normal nervous system function. It is less toxic to mammals 
+     due to their higher body temperature, larger body size, and decreased sensitivity 
+     to the chemical.
+    
+    <ul class="bugs"><span> Target Pests:  </span>   
+        <li>Ants (carpenter)</li>
+        <li>Carpet Beetles</li>
+        <li>Centipedes</li>
+        <li>Cockroaches</li>
+        <li>Crickets</li>
+        <li>Earwigs</li>
+        <li>Fleas</li>
+        <li>Flies</li>
+        <li>Millipedes</li>
+        <li>Mosquitos</li>
+        <li>Silverfish</li>
+        <li>Spiders</li>
+        <li>Springtails</li>
+        <li>Ticks</li>
+    </ul>
+</p>
+
+
+
+</div>
+
+<script>
+ $('span').css('color', 'red');
+
+  
+</script>
+
 </body>
 </html>

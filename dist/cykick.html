@@ -1,32 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
-    <title>AppTive </title>
+    <title>jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    
+    <style>
+    body {
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f4f4f4;
+        line-height: 1.5em;
+    }
+
+    header {
+        background-image: url('images/background2.png');
+        color: #43d73c;
+        padding: 20px;
+        text-align: center;
+        border: 4px #000 solid;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        width: 50%;
+        height: 50%;
+        margin: 5% 20%;
+    }
+
+    img {
+        width: 50%;
+        height: 50%;
+        margin: 2% 20%;
+    }
+
+    p {
+        width: 50%;
+        height: 50%;
+        margin: 1% 20%; 
+    }
+
+    ul {
+        width: 50%;
+        height: 50%;
+        margin: 5% 20%; 
+    }
+
+    #container {
+        width: 50%;
+        margin: auto;
+        padding: 10%;
+    }
+    </style>
 </head>
 <body>
-<div id="chemical">
-    <h1 class="chemical_title">CyKick CS</h1>
-    <img src="../images/cykick.jpg" alt="CyKick">
-    <div class="chemical_info">
-        <div class="active_ingredient"><p>The active ingredient is <span>Cyfluthrin</span> It is a synthetic 
-            pyrethroid that attacks the central nervous system of target pests.
-         </p></div>
-        <div class="pesticide_info">
-                <p> <span>Cy-kick CS</span> liquid concentrate insecticide provides 
-                    90 days of full-throttle killing power, controlling insects indoors
-                    and outdoors. With a broad spectrum label including spiders, ants, 
-                    mosquitoes, bees, cockroaches, crickets, fleas, flies, bed bugs,
-                    silverfish, ticks, wasps, wood infesting borers and more, you 
-                    don’t have to pick and choose between different insecticides for 
-                    different pests.
-                </p>
-        </div>
-        <div class="target_pests"><span>Ants</span></div>     
-    </div>
-</div>    
+
+<header>
+    <h1>AppTive</h1>
+</header>    
+
+<div id="container">
+
+<h1 id="heading1">CyKick CS</h1> 
+<img src="../images/cykick.jpg" alt="">
+<p id="para1"> <span>Cy-kick CS</span> liquid concentrate insecticide provides 
+    90 days of full-throttle killing power, controlling insects 
+    indoors and outdoors. The active ingredient is <span>Cyfluthrin.</span> <br> <br>
+    <span>Cyfluthrin </span> acts as a stomach poison and through contact with the insect. 
+    By attacking the nerves, cyfluthrin causes constant muscle spasms. 
+    Eventually, the insect is paralyzed or starves.
+    
+    <ul class="bugs"><span> Target Pests:  </span>   
+        <li>Ants (carpenter)</li>
+        <li>Cockroaches</li>
+        <li>Crickets</li>
+        <li>Earwigs</li>
+        <li>Fleas</li>
+        <li>Flies</li>
+        <li>Mosquitos</li>
+        <li>Silverfish</li>
+        <li>Spiders</li>
+        <li>Springtails</li>
+        <li>Ticks</li>
+    </ul>
+</p>
+
+
+
+</div>
+
+<script>
+ $('span').css('color', 'red');
+
+  
+</script>
+
 </body>
 </html>
