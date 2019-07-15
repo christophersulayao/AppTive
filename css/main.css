@@ -1,0 +1,33 @@
+body {
+  background-color: white; }
+
+.title {
+  color: #43d73c;
+  text-align: center;
+  font-weight: bold; }
+
+.selection {
+  width: 50%;
+  padding: 1%;
+  margin-left: 25%;
+  font-size: 1.5rem; }
+
+.selection_title {
+  text-align: center;
+  font-weight: bold; }
+
+select:hover {
+  outline-color: #43d73c; }
+
+#chemical > h1 {
+  text-align: center; }
+
+#chemical > img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.chemical_info > div {
+  text-align: center;
+  margin-top: 1rem; }

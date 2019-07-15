@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    
+    <style>
+    body {
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f4f4f4;
+        line-height: 1.5em;
+    }
+
+    header {
+        background-image: url('images/background2.png');
+        color: #43d73c;
+        padding: 20px;
+        text-align: center;
+        border: 4px #000 solid;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        width: 50%;
+        height: 50%;
+        margin: 5% 20%;
+    }
+
+    img {
+        width: 50%;
+        height: 50%;
+        margin: 2% 20%;
+    }
+
+    p {
+        width: 50%;
+        height: 50%;
+        margin: 1% 20%; 
+    }
+
+    ul {
+        width: 50%;
+        height: 50%;
+        margin: 5% 20%; 
+    }
+
+    #container {
+        width: 50%;
+        margin: auto;
+        padding: 10%;
+    }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AppTive</h1>
+</header>    
+
+<div id="container">
+
+<h1 id="heading1">EcoPCO D-X</h1> 
+<img src="../images/eco.jpg" alt="">
+<p id="para1"> <span>EcoPCO D-X</span> Eco PCO D-X Dust is a ready-to-use, all-natural,
+     organic insecticide dust with the botanical active ingredients Phenethyl Propionate 
+     and Pyrethrins. The active ingredient is <span>2-Phenthyl Propionate.</span> <br> <br>
+    <span>2-Phenthyl Propionate </span> acts as an octopamine blocker for target pests by disrupting
+    the neuro transmitter function in target insects and causing a breakdown in the insect's 
+    central nervous system. 
+    
+    <ul class="bugs"><span> Target Pests:  </span>   
+        <li>Ants</li>
+        <li>Bed Bugs</li>
+        <li>Carpet Beetles</li>
+        <li>Centipedes</li>
+        <li>Cockroaches</li>
+        <li>Spiders</li>
+        <li>Stinging Insects</li>
+    </ul>
+</p>
+
+
+
+</div>
+
+<script>
+ $('span').css('color', 'red');
+
+  
+</script>
+
+</body>
+</html>
