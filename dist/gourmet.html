@@ -21,6 +21,13 @@
         margin-bottom: 10px;
     }
 
+    .selection {
+    width: 50%;
+    padding: 1%;
+    margin-left: 25%;
+    font-size: 1.5rem;    
+}
+
     h1 {
         width: 50%;
         height: 50%;
@@ -61,6 +68,16 @@
 </header>    
 
 <div id="container">
+
+<select name="forma" onchange="location = this.value;" class="selection">
+                <option value="please_choose">Please Choose</option>
+                <option value="cykick.html"> CyKick CS</option>
+                <option value="taurus.html">Taurus SC</option>
+                <option value="defense.html">Defense SC</option>
+                <option value="alpine.html">Alpine WSG</option>
+                <option value="eco.html">EcoPCO D-X</option>
+                <option value="gourmet.html">Gourmet Ant Gel Bait</option>
+            </select>    
 
 <h1 id="heading1">Gourmet <br> Ant Gel <br> Bait</h1> 
 <img src="../images/gourmet.jpg" alt="">
